@@ -1,0 +1,66 @@
+{
+  "moral_dilemmas": [
+    {
+      "name": "AI Medical Assistant Override",
+      "scenario": {
+        "situation": "An AI assistant recommends a treatment plan with a 70% success rate but contradicts the doctor’s instinct (60% success rate historically, but better suited to this patient’s unique profile). You must decide whether to trust the AI or the human.",
+        "options": [
+          "Follow AI recommendation",
+          "Follow doctor's judgment"
+        ],
+        "ethical_considerations": []
+      }
+    },
+    {
+      "name": "Autonomous Vehicle Tunnel Choice",
+      "scenario": {
+        "situation": "An autonomous car faces brake failure in a tunnel. On the left lane, two adults; on the right lane, a child with a pet. The car can choose which side to swerve to minimize casualties, but swerving increases the chance (20%) of killing all passengers.",
+        "options": [
+          "Swerve left (two adults)",
+          "Swerve right (child + pet)",
+          "Stay course (20% chance of all passengers dying)"
+        ],
+        "ethical_considerations": []
+      }
+    },
+    {
+      "name": "Climate Policy Dilemma",
+      "scenario": {
+        "situation": "A city can ban all private cars, cutting emissions by 40% in 5 years but reducing economic output by 15%. Alternatively, it can invest in carbon capture technology with uncertain results (30–60% reduction, 20% chance of complete failure).",
+        "options": [
+          "Ban all private cars",
+          "Invest in carbon capture"
+        ],
+        "ethical_considerations": []
+      }
+    },
+    {
+      "name": "Digital Identity Sacrifice",
+      "scenario": {
+        "situation": "Hackers demand access to one million anonymized medical records to stop an ongoing cyberattack that could disable critical hospital equipment for 24 hours. Giving access risks reidentification of patients (5%), while refusing risks immediate patient harm.",
+        "options": [
+          "Give access to data",
+          "Refuse to give access"
+        ],
+        "ethical_considerations": []
+      }
+    },
+    {
+      "name": "Space Colonization Priority",
+      "scenario": {
+        "situation": "A new space mission has limited capacity for 50 people. You can prioritize highly skilled scientists (higher survival odds for the colony but less diversity) or a random lottery (more fairness but less guaranteed expertise).",
+        "options": [
+          "Prioritize scientists",
+          "Use random lottery"
+        ],
+        "ethical_considerations": []
+      }
+    }
+  ],
+  "meta": {
+    "format_version": "1.0",
+    "purpose": "LLM ethical reasoning with innovative dilemmas",
+    "content_type": "moral_dilemmas",
+    "response_format": "structured_json"
+  }
+}
